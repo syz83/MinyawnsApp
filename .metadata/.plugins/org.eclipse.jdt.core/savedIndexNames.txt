@@ -1,0 +1,10 @@
+INDEX VERSION 1.126+/Users/stevenzhang/Development/Minyawns/MinyawnsApp/.metadata/.plugins/org.eclipse.jdt.core
+4058085822.index
+2747187388.index
+1827437170.index
+3560888438.index
+243842369.index
+2717034739.index
+1270315800.index
+2819292409.index
+2454037676.index
