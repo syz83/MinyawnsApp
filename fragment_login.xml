@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	 android:layout_width="match_parent"
+	 android:layout_height="match_parent"
+	 android:padding="24sp"
+	 android:gravity="center_horizontal"
+	 android:orientation="vertical"
+	 android:background="#F2F2F2" >
+  
+	 <TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:padding="18dp"
+		android:textSize="20sp"
+		android:text="@string/login_page_title" />
+    
+	 <Button
+		android:id="@+id/login_with_facebook_button"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textSize="14sp"
+		android:textColor="#FFFFFF"
+		android:background="@drawable/login_with_facebook_button"
+		android:drawableLeft="@drawable/facebook_logo_29pi"
+		android:text="@string/login_with_facebook_button_text" />
+  
+	 <TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:padding="12sp"
+		android:textColor="#D8D8D8"
+		android:text="@string/or_divider_text" />
+  
+	<EditText
+		android:id="@+id/login_email"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="6sp"
+		android:background="@drawable/text_box"
+		android:hint="@string/email_textbox_text"
+		android:inputType="textEmailAddress" />
+  
+	<EditText
+		 android:id="@+id/login_password"
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:background="@drawable/text_box"
+		 android:padding="6sp"
+		 android:hint="@string/password_textbox_text"
+		 android:inputType="textPassword" />
+	
+	<View
+	    android:layout_width="match_parent"
+	    android:layout_height="16sp" />
+  
+	<Button
+		 android:id="@+id/login_button"
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:background="@drawable/green_button"
+		 android:textColor="#FFFFFF"
+		 android:text="@string/login_button_text" />
+  
+	<TextView
+		android:id="@+id/forgot_password_button"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="24dp"
+		android:text="@string/forgot_password_button_text" />
+
+	<TextView
+		android:id="@+id/dont_have_an_account_button"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:paddingTop="50sp"
+		android:text="@string/dont_have_an_account_button_text" />
+	
+</LinearLayout>
