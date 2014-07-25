@@ -2,6 +2,19 @@
 <resources>
 
     <string name="app_name">Minyawns</string>
+<<<<<<< HEAD
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    
+    <string-array name="pages_array">
+        <item>Home</item>
+        <item>Profile</item>
+        <item>Jobs</item>
+    </string-array>
+
+=======
 	<string name="login_page_title">Login</string>
 	<string name="or_divider_text">or</string>
 	<string name="email_textbox_text">email</string>
@@ -17,5 +30,6 @@
     <string name="signup_page_title">Signup As Minion</string>
     <string name="first_name_textbox_text">first name</string>
 	<string name="last_name_textbox_text">last name</string>
+>>>>>>> 736f8cc0d79718afa82ed203549f3864eb127992
 
 </resources>
