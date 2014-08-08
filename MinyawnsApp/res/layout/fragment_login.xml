@@ -10,7 +10,7 @@
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:gravity="center"
-		android:padding="18dp"
+		android:padding="18sp"
 		android:textSize="20sp"
 		android:text="@string/login_page_title" />
     
@@ -33,7 +33,7 @@
 		android:text="@string/or_divider_text" />
   
 	<EditText
-		android:id="@+id/login_email"
+		android:id="@+id/login_email_field"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:padding="6sp"
@@ -42,7 +42,7 @@
 		android:inputType="textEmailAddress" />
   
 	<EditText
-		 android:id="@+id/login_password"
+		 android:id="@+id/login_password_field"
 		 android:layout_width="match_parent"
 		 android:layout_height="wrap_content"
 		 android:background="@drawable/text_box"
@@ -63,14 +63,14 @@
 		 android:text="@string/login_button_text" />
   
 	<TextView
-		android:id="@+id/forgot_password_button"
+		android:id="@+id/forgot_password_text_view"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:padding="24dp"
 		android:text="@string/forgot_password_button_text" />
 
 	<TextView
-		android:id="@+id/dont_have_an_account_button"
+		android:id="@+id/dont_have_an_account_text_view"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:paddingTop="50sp"

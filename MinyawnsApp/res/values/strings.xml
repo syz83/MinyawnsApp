@@ -8,6 +8,7 @@
 	<string name="password_textbox_text">password</string>
 	<string name="login_button_text">Log In</string>
 	<string name="login_with_facebook_button_text">Log In with Facebook</string>
+	<string name="signup_with_facebook_button_text">Signup with Facebook</string>
 	<string name="signup_button_text">Signup</string>
 	<string name="forgot_password_button_text">Forgot Password?</string>
 	<string name="already_have_account_button_text">Already have an account?</string>
@@ -17,5 +18,7 @@
     <string name="signup_page_title">Signup As Minion</string>
     <string name="first_name_textbox_text">first name</string>
 	<string name="last_name_textbox_text">last name</string>
+	<string name="forgot_password_page_text">Please enter your username or email to reset your password.</string>
+	<string name="reset_password_button_text">Reset Password</string>
 
 </resources>
