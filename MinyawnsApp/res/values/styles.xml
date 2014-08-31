@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!--
         Base application theme, dependent on API level. This theme is replaced
@@ -16,5 +16,77 @@
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
+    
+    <!-- Layouts -->
+    
+    <style name="StandardWidthBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    
+    <style name="WrappedBox">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    <!-- Random -->
+    
+    <style name="JobDetailSectionTitle" parent="@style/StandardWidthBox">
+        <item name="android:paddingTop">12dp</item>
+    </style>
+    
+	<style name="PageTitle" parent="@style/StandardWidthBox">
+        <item name="android:gravity">center</item>
+		<item name="android:padding">18dp</item>
+		<item name="android:textSize">20sp</item>
+    </style>
+    
+    <!-- Item box with Green line on right stuff -->
+    
+    <style name="JobDetailBox" parent="@style/StandardWidthBox">
+        <item name="android:background">@drawable/specific_job_page_textbox</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    
+    <style name="JobDetailItem" parent="@style/StandardWidthBox">
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:textColor">#AFAFAF</item>
+    </style>
+    
+    <style name="JobDetailItemTop" parent="@style/JobDetailItem">
+        <item name="android:paddingTop">4dp</item>
+    </style>
+    
+    <style name="JobDetailFullBox" parent="@style/JobDetailBox">
+        <item name="android:padding">4dp</item>
+        <item name="android:textColor">#AFAFAF</item>
+	</style>
+    
+    <!-- Text Boxes -->
+    
+    <style name="TextBox" parent="@style/StandardWidthBox">
+        <item name="android:padding">4dp</item>
+        <item name="android:background">@drawable/text_box</item>
+    </style>
+    
+    <style name="HalfWidthTextBox" parent="@style/TextBox">
+        <item name="android:layout_weight">0.5</item>
+    </style>
+    
+    <!-- Buttons -->
+    
+    <style name="GreenButton" parent="StandardWidthBox">
+        <item name="android:background">@drawable/green_button</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    
+    <style name="FacebookButton" parent="StandardWidthBox">
+		<item name="android:textColor">#FFFFFF</item>
+		<item name="android:background">@drawable/login_with_facebook_button</item>
+		<item name="android:drawableLeft">@drawable/facebook_logo_29pi</item>
+    </style>
+    
 
 </resources>

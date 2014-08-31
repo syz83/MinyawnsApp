@@ -20,5 +20,26 @@
 	<string name="last_name_textbox_text">last name</string>
 	<string name="forgot_password_page_text">Please enter your username or email to reset your password.</string>
 	<string name="reset_password_button_text">Reset Password</string>
+	<string name="section_title_details">DETAILS</string>
+	<string name="section_title_description">DESCRIPTION</string>
+	<string name="section_title_employer_information">EMPLOYER INFORMATION</string>
+	<string name="section_title_catergory">CATERGORY</string>
+	<string name="section_title_tags">TAGS</string>
+	<string name="test_day_of_month">13</string>
+	<string name="test_month_of_year">JUN</string>
+	<string name="test_job_title">Father’s Day Weekend Beer Festival Help (3 day event) – Beer Keg</string>
+	<string name="test_job_time">Mon Aug 25, 10:00 AM to 11:00 PM</string>
+	<string name="test_job_location">Washington Brewers Festival in Marymoor Park, Redmond</string>
+	<string name="test_job_wage">Wage: 20.00 per hour, 315.90 total</string>
+	<string name="test_job_description">We will need at least 6 strong men and women to bring kegs of beer to the brewers. Must have muscle and be 21 and over. There are about 90 Washington breweries pouring, a stage for music acts, a rootbeer garden, activities for kids, food vendors and a merchant booth. Friday hours are 3pm until 10pm – no kid’s area that day. Saturday hours are 10am to 9:30pm. Sunday is 10am to 6:30pm. Meal vouchers to the vendors in the festival are provided, two meals a day.</string>
+	<string name="test_employer_name">Pro-Motion Events</string>
+	<string name="test_employer_address">P.O. Box 31789 Seattle, WA 98103</string>
+	<string name="test_catergory">Deliveries and Moving, Events</string>
+	<string name="test_tags">21+, Free Food, labor</string>
+	<string name="test_application_open">Application Open</string>
+	<string name="test_4_days_to_apply">4 days to apply</string>
+	<string name="test_apply_now_button_text">Apply Now</string>
+	
+
 
 </resources>

@@ -8,21 +8,12 @@
 	 android:background="#F2F2F2" >
 	 
 	 <TextView
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:gravity="center"
-		android:padding="18dp"
-		android:textSize="20sp"
+		style="@style/PageTitle"
 		android:text="@string/signup_page_title" />
     
 	 <Button
+	    style="@style/FacebookButton"
 		android:id="@+id/signup_with_facebook_button"
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:textSize="14sp"
-		android:textColor="#FFFFFF"
-		android:background="@drawable/login_with_facebook_button"
-		android:drawableLeft="@drawable/facebook_logo_29pi"
 		android:text="@string/signup_with_facebook_button_text" />
   
 	 <TextView
@@ -34,66 +25,46 @@
 		android:text="@string/or_divider_text" />
   
 	<EditText
+	    style="@style/TextBox"
 		android:id="@+id/signup_email_field"
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:padding="6sp"
-		android:background="@drawable/text_box"
 		android:hint="@string/email_textbox_text"
 		android:inputType="textEmailAddress" />
   
 	<EditText
-		 android:id="@+id/signup_password_field"
-		 android:layout_width="match_parent"
-		 android:layout_height="wrap_content"
-		 android:background="@drawable/text_box"
-		 android:padding="6sp"
-		 android:hint="@string/password_textbox_text"
-		 android:inputType="textPassword" />
-
+	    style="@style/TextBox"
+	    android:id="@+id/signup_password_field"
+	    android:hint="@string/password_textbox_text"
+	    android:inputType="textPassword" />
+	
 	<LinearLayout
-	    android:layout_width="match_parent"
-	    android:layout_height="wrap_content"
-	    android:orientation="horizontal"
-	    android:padding="0dp" >
+	    style="@style/StandardWidthBox"
+	    android:orientation="horizontal" >
 	    
 	    <EditText
+			style="@style/HalfWidthTextBox"
 			android:id="@+id/signup_first_name_field"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:gravity="fill"
-			android:padding="6sp"
-			android:background="@drawable/text_box"
 			android:hint="@string/first_name_textbox_text" />
 	    
 	    <EditText
+	        style="@style/HalfWidthTextBox"
 			android:id="@+id/signup_last_name_field"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:gravity="fill"
-			android:padding="6sp"
-			android:background="@drawable/text_box"
 			android:hint="@string/last_name_textbox_text" />
 	    
 	</LinearLayout>
 	
 	<View
 	    android:layout_width="match_parent"
-	    android:layout_height="16sp" />
+	    android:layout_height="32sp" />
 	
 	<Button
-		 android:id="@+id/signup_button"
-		 android:layout_width="match_parent"
-		 android:layout_height="wrap_content"
-		 android:background="@drawable/green_button"
-		 android:textColor="#FFFFFF"
-		 android:text="@string/signup_button_text" />
+	    style="@style/GreenButton"
+	    android:id="@+id/signup_button"
+	    android:text="@string/signup_button_text" />
 	
 	
-		<TextView
+	<TextView
+		style="@style/StandardWidthBox"
 		android:id="@+id/already_have_account_text_view"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
 		android:padding="24dp"
 		android:text="@string/already_have_account_button_text" />
 
